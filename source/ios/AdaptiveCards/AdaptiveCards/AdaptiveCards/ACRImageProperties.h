@@ -12,9 +12,21 @@
 #import "ACREnums.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOBaseCardElement.h"
+#else
 #import <AdaptiveCards/ACOBaseCardElement.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACOHostConfig.h"
+#else
 #import <AdaptiveCards/ACOHostConfig.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACREnums.h"
+#else
 #import <AdaptiveCards/ACREnums.h>
+#endif
 #endif
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

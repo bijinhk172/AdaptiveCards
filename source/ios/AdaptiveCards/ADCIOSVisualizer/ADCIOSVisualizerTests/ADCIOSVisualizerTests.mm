@@ -22,7 +22,11 @@
 #import "CustomActionNewType.h"
 #import "CustomActionOpenURLRenderer.h"
 #import "MockRenderer.h"
+#ifdef SWIFT_PACKAGE
+#import "AdaptiveCards.h"
+#else
 #import <AdaptiveCards/AdaptiveCards.h>
+#endif
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 

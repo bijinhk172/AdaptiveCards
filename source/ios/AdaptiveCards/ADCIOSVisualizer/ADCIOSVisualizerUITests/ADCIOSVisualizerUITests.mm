@@ -7,7 +7,11 @@
 //
 
 #import "AdaptiveCards/ACOHostConfigPrivate.h"
+#ifdef SWIFT_PACKAGE
+#import "AdaptiveCards.h"
+#else
 #import <AdaptiveCards/AdaptiveCards.h>
+#endif
 #import <XCTest/XCTest.h>
 #include <string>
 

@@ -10,7 +10,11 @@
 #import "ACRChoiceSetViewDataSource.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRChoiceSetViewDataSource.h"
+#else
 #import <AdaptiveCards/ACRChoiceSetViewDataSource.h>
+#endif
 #endif
 #import "ACOBaseCardElementPrivate.h"
 #import "ACOHostConfigPrivate.h"

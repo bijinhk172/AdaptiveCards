@@ -13,10 +13,26 @@
 #import "SharedAdaptiveCard.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOMediaEvent.h"
+#else
 #import <AdaptiveCards/ACOMediaEvent.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "Media.h"
+#else
 #import <AdaptiveCards/Media.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "MediaSource.h"
+#else
 #import <AdaptiveCards/MediaSource.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SharedAdaptiveCard.h"
+#else
 #import <AdaptiveCards/SharedAdaptiveCard.h>
+#endif
 #endif
 #import <Foundation/Foundation.h>
 

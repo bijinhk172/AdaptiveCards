@@ -12,10 +12,26 @@
 #import "SharedAdaptiveCard.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRContentStackView.h"
+#else
 #import <AdaptiveCards/ACRContentStackView.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRIContentHoldingView.h"
+#else
 #import <AdaptiveCards/ACRIContentHoldingView.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "HostConfig.h"
+#else
 #import <AdaptiveCards/HostConfig.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SharedAdaptiveCard.h"
+#else
 #import <AdaptiveCards/SharedAdaptiveCard.h>
+#endif
 #endif
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

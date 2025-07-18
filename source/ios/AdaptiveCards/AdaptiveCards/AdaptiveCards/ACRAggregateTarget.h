@@ -11,8 +11,16 @@
 #import "ACRBaseTarget.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOInputResults.h"
+#else
 #import <AdaptiveCards/ACOInputResults.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRBaseTarget.h"
+#else
 #import <AdaptiveCards/ACRBaseTarget.h>
+#endif
 #endif
 #import "ACRIContentHoldingView.h"
 #import "ACRView.h"

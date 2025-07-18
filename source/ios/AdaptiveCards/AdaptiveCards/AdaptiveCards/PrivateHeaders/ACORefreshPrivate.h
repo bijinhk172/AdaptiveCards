@@ -11,8 +11,16 @@
 #import "Refresh.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACORefresh.h"
+#else
 #import <AdaptiveCards/ACORefresh.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "Refresh.h"
+#else
 #import <AdaptiveCards/Refresh.h>
+#endif
 #endif
 
 using namespace AdaptiveCards;

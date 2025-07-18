@@ -6,10 +6,26 @@
 //
 
 #import "CustomActionNewType.h"
+#ifdef SWIFT_PACKAGE
+#import "ACOBaseActionElementPrivate.h"
+#else
 #import <AdaptiveCards/ACOBaseActionElementPrivate.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACOBundle.h"
+#else
 #import <AdaptiveCards/ACOBundle.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRAggregateTarget.h"
+#else
 #import <AdaptiveCards/ACRAggregateTarget.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SharedAdaptiveCard.h"
+#else
 #import <AdaptiveCards/SharedAdaptiveCard.h>
+#endif
 
 @implementation CustomActionNewType
 

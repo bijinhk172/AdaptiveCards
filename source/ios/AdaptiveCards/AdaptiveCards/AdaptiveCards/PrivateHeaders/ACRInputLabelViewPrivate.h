@@ -14,10 +14,26 @@
 #import "SharedAdaptiveCard.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRInputLabelView.h"
+#else
 #import <AdaptiveCards/ACRInputLabelView.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRView.h"
+#else
 #import <AdaptiveCards/ACRView.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "BaseInputElement.h"
+#else
 #import <AdaptiveCards/BaseInputElement.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SharedAdaptiveCard.h"
+#else
 #import <AdaptiveCards/SharedAdaptiveCard.h>
+#endif
 #endif
 
 using namespace AdaptiveCards;

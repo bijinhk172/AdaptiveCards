@@ -3,8 +3,16 @@
 //
 
 #import "CustomActionSetRenderer.h"
+#ifdef SWIFT_PACKAGE
+#import "ACOBaseActionElementPrivate.h"
+#else
 #import <AdaptiveCards/ACOBaseActionElementPrivate.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRActionSetRenderer.h"
+#else
 #import <AdaptiveCards/ACRActionSetRenderer.h>
+#endif
 
 @implementation CustomActionSetRenderer
 

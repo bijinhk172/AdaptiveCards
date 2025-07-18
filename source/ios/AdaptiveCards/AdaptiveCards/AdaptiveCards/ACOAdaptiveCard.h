@@ -14,11 +14,31 @@
 #import "ACRIBaseInputHandler.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOAdaptiveCardParseResult.h"
+#else
 #import <AdaptiveCards/ACOAdaptiveCardParseResult.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACOAuthentication.h"
+#else
 #import <AdaptiveCards/ACOAuthentication.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACORefresh.h"
+#else
 #import <AdaptiveCards/ACORefresh.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACORemoteResourceInformation.h"
+#else
 #import <AdaptiveCards/ACORemoteResourceInformation.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRIBaseInputHandler.h"
+#else
 #import <AdaptiveCards/ACRIBaseInputHandler.h>
+#endif
 #endif
 #import <Foundation/Foundation.h>
 

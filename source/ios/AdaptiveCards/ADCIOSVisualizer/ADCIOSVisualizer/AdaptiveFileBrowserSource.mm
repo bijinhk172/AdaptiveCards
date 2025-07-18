@@ -7,12 +7,36 @@
 //
 
 #import "AdaptiveFileBrowserSource.h"
+#ifdef SWIFT_PACKAGE
+#import "ACOHostConfigPrivate.h"
+#else
 #import <AdaptiveCards/ACOHostConfigPrivate.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "AdaptiveCards.h"
+#else
 #import <AdaptiveCards/AdaptiveCards.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "Fact.h"
+#else
 #import <AdaptiveCards/Fact.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "FactSet.h"
+#else
 #import <AdaptiveCards/FactSet.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SharedAdaptiveCard.h"
+#else
 #import <AdaptiveCards/SharedAdaptiveCard.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SubmitAction.h"
+#else
 #import <AdaptiveCards/SubmitAction.h>
+#endif
 
 using namespace std;
 using namespace AdaptiveCards;

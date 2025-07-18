@@ -13,10 +13,26 @@
 #import "SharedAdaptiveCard.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRIBaseInputHandler.h"
+#else
 #import <AdaptiveCards/ACRIBaseInputHandler.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRTextField.h"
+#else
 #import <AdaptiveCards/ACRTextField.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "BaseInputElement.h"
+#else
 #import <AdaptiveCards/BaseInputElement.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SharedAdaptiveCard.h"
+#else
 #import <AdaptiveCards/SharedAdaptiveCard.h>
+#endif
 #endif
 #import <UIKit/UIKit.h>
 

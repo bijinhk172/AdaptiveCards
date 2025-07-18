@@ -11,8 +11,16 @@
 #import "AdaptiveCardParseWarning.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRParseWarning.h"
+#else
 #import <AdaptiveCards/ACRParseWarning.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "AdaptiveCardParseWarning.h"
+#else
 #import <AdaptiveCards/AdaptiveCardParseWarning.h>
+#endif
 #endif
 #import <Foundation/Foundation.h>
 

@@ -15,13 +15,41 @@
 #import "TextBlock.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOBaseActionElement.h"
+#else
 #import <AdaptiveCards/ACOBaseActionElement.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACOBaseCardElement.h"
+#else
 #import <AdaptiveCards/ACOBaseCardElement.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACOHostConfig.h"
+#else
 #import <AdaptiveCards/ACOHostConfig.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACORenderContext.h"
+#else
 #import <AdaptiveCards/ACORenderContext.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACREnums.h"
+#else
 #import <AdaptiveCards/ACREnums.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "HostConfig.h"
+#else
 #import <AdaptiveCards/HostConfig.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "TextBlock.h"
+#else
 #import <AdaptiveCards/TextBlock.h>
+#endif
 #endif
 #import <UIKit/UIKit.h>
 

@@ -14,11 +14,31 @@
 #import "ShowCardAction.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRBaseTarget.h"
+#else
 #import <AdaptiveCards/ACRBaseTarget.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRIContentHoldingView.h"
+#else
 #import <AdaptiveCards/ACRIContentHoldingView.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRView.h"
+#else
 #import <AdaptiveCards/ACRView.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SharedAdaptiveCard.h"
+#else
 #import <AdaptiveCards/SharedAdaptiveCard.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ShowCardAction.h"
+#else
 #import <AdaptiveCards/ShowCardAction.h>
+#endif
 #endif
 #import <UIKit/UIKit.h>
 

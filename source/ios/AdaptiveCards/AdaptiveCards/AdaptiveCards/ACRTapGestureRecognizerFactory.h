@@ -10,8 +10,16 @@
 #import "ACRIContentHoldingView.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRBaseTarget.h"
+#else
 #import <AdaptiveCards/ACRBaseTarget.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRIContentHoldingView.h"
+#else
 #import <AdaptiveCards/ACRIContentHoldingView.h>
+#endif
 #endif
 #import "ACRTapGestureRecognizerEventHandler.h"
 #import "ACRView.h"

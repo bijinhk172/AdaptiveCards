@@ -10,7 +10,11 @@
 #import "ACRContainerRenderer.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRContainerRenderer.h"
+#else
 #import <AdaptiveCards/ACRContainerRenderer.h>
+#endif
 #endif
 
 @interface ACRTableCellRenderer : ACRContainerRenderer

@@ -11,8 +11,16 @@
 #import "ACRActionDelegate.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOWarning.h"
+#else
 #import <AdaptiveCards/ACOWarning.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRActionDelegate.h"
+#else
 #import <AdaptiveCards/ACRActionDelegate.h>
+#endif
 #endif
 #import "ACOAdaptiveCard.h"
 #import "ACOHostConfig.h"

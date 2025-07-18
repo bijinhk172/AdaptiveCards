@@ -8,7 +8,11 @@
 #ifdef USE_AC_SWIFT_PACKAGE
 #import "ACRImageProperties.h"
 #else
+#ifdef SWIFT_PACKAGE
+#import "ACRImageProperties.h"
+#else
 #import <AdaptiveCards/ACRImageProperties.h>
+#endif
 #endif
 #import <XCTest/XCTest.h>
 

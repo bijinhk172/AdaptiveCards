@@ -11,8 +11,16 @@
 #import "Authentication.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOAuthentication.h"
+#else
 #import <AdaptiveCards/ACOAuthentication.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "Authentication.h"
+#else
 #import <AdaptiveCards/Authentication.h>
+#endif
 #endif
 
 using namespace AdaptiveCards;

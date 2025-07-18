@@ -10,7 +10,11 @@
 #import "ACOBaseActionElement.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOBaseActionElement.h"
+#else
 #import <AdaptiveCards/ACOBaseActionElement.h>
+#endif
 #endif
 #import <Foundation/Foundation.h>
 

@@ -10,8 +10,16 @@
 #import "ParseContext.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOParseContext.h"
+#else
 #import <AdaptiveCards/ACOParseContext.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ParseContext.h"
+#else
 #import <AdaptiveCards/ParseContext.h>
+#endif
 #endif
 
 using namespace AdaptiveCards;

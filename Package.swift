@@ -35,11 +35,8 @@ let package = Package(
             name: "AdaptiveCards",
             dependencies: ["ObjectModel",
                            .product(name: "SVGKit", package: "SVGKit"),
-                           .product(name: "FluentUITooltip", package: "fluentui-apple")
+                           .product(name: "FluentUI", package: "fluentui-apple")
                           ],
-            cSettings: [
-                .headerSearchPath(".")
-            ]
             path: "source/ios/AdaptiveCards/AdaptiveCards/AdaptiveCards",
             exclude: [
                 "CMakeLists.txt",
@@ -53,6 +50,9 @@ let package = Package(
                 .process("Resources")
             ],
             publicHeadersPath: "include",
+            cSettings: [
+                .headerSearchPath(".")
+            ],
             cxxSettings: [
                 .headerSearchPath("../../../../shared/cpp/ObjectModel") 
             ],

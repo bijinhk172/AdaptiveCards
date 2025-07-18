@@ -6,7 +6,11 @@
 //
 
 #import "CustomInputNumberRenderer.h"
+#ifdef SWIFT_PACKAGE
+#import "AdaptiveCards.h"
+#else
 #import <AdaptiveCards/AdaptiveCards.h>
+#endif
 
 @implementation CustomInputNumberRenderer
 

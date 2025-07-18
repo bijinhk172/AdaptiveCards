@@ -13,8 +13,16 @@
 #import "ACRTargetBuilder.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRBaseActionElementRenderer.h"
+#else
 #import <AdaptiveCards/ACRBaseActionElementRenderer.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRTargetBuilder.h"
+#else
 #import <AdaptiveCards/ACRTargetBuilder.h>
+#endif
 #endif
 #import "ACOBaseCardElement.h"
 

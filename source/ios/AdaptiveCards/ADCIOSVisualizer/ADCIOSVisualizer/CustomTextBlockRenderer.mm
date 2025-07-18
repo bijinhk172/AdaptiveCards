@@ -6,15 +6,51 @@
 //
 
 #import "CustomTextBlockRenderer.h"
+#ifdef SWIFT_PACKAGE
+#import "ACOBaseCardElementPrivate.h"
+#else
 #import <AdaptiveCards/ACOBaseCardElementPrivate.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACOHostConfigPrivate.h"
+#else
 #import <AdaptiveCards/ACOHostConfigPrivate.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRContentHoldingUIView.h"
+#else
 #import <AdaptiveCards/ACRContentHoldingUIView.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRTextBlockRenderer.h"
+#else
 #import <AdaptiveCards/ACRTextBlockRenderer.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "AdaptiveCards.h"
+#else
 #import <AdaptiveCards/AdaptiveCards.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "HostConfig.h"
+#else
 #import <AdaptiveCards/HostConfig.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "MarkDownParser.h"
+#else
 #import <AdaptiveCards/MarkDownParser.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SharedAdaptiveCard.h"
+#else
 #import <AdaptiveCards/SharedAdaptiveCard.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "TextBlock.h"
+#else
 #import <AdaptiveCards/TextBlock.h>
+#endif
 
 @implementation CustomTextBlockRenderer
 

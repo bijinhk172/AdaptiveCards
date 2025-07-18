@@ -9,7 +9,11 @@
 #import "AdaptiveCards/ACOAuthenticationPrivate.h"
 #import "AdaptiveCards/ACOBaseActionElementPrivate.h"
 #import "AdaptiveCards/ExecuteAction.h"
+#ifdef SWIFT_PACKAGE
+#import "AdaptiveCards.h"
+#else
 #import <AdaptiveCards/AdaptiveCards.h>
+#endif
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
 

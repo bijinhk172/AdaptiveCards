@@ -11,8 +11,16 @@
 #import "ACREnums.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRContentStackView.h"
+#else
 #import <AdaptiveCards/ACRContentStackView.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACREnums.h"
+#else
 #import <AdaptiveCards/ACREnums.h>
+#endif
 #endif
 
 #import <UIKit/UIKit.h>

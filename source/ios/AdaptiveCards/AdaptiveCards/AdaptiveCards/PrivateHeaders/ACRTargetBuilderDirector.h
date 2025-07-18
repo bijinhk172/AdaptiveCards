@@ -12,9 +12,21 @@
 #import "ACRView.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOBaseActionElementPrivate.h"
+#else
 #import <AdaptiveCards/ACOBaseActionElementPrivate.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRTargetBuilder.h"
+#else
 #import <AdaptiveCards/ACRTargetBuilder.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRView.h"
+#else
 #import <AdaptiveCards/ACRView.h>
+#endif
 #endif
 #import <Foundation/Foundation.h>
 

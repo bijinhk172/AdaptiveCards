@@ -11,8 +11,16 @@
 #import "SharedAdaptiveCard.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOAdaptiveCard.h"
+#else
 #import <AdaptiveCards/ACOAdaptiveCard.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SharedAdaptiveCard.h"
+#else
 #import <AdaptiveCards/SharedAdaptiveCard.h>
+#endif
 #endif
 using namespace AdaptiveCards;
 

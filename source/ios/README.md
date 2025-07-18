@@ -29,7 +29,11 @@ Please remember to run pod repo update to get latest patches
 ViewController.h
 ```
 #import <UIKit/UIKit.h>
+#ifdef SWIFT_PACKAGE
+#import "ACFramework.h"
+#else
 #import <AdaptiveCards/ACFramework.h>
+#endif
 @interface ViewController : UIViewController<ACRActionDelegate>
 
 

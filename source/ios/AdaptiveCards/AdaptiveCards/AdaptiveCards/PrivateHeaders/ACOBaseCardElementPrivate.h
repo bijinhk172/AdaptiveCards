@@ -10,8 +10,16 @@
 #import "BaseCardElement.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOBaseCardElement.h"
+#else
 #import <AdaptiveCards/ACOBaseCardElement.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "BaseCardElement.h"
+#else
 #import <AdaptiveCards/BaseCardElement.h>
+#endif
 #endif
 
 using namespace AdaptiveCards;

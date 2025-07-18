@@ -20,16 +20,56 @@
 #import "StyledCollectionElement.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACOInputResults.h"
+#else
 #import <AdaptiveCards/ACOInputResults.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRErrors.h"
+#else
 #import <AdaptiveCards/ACRErrors.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRRegistration.h"
+#else
 #import <AdaptiveCards/ACRRegistration.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRTargetBuilderDirector.h"
+#else
 #import <AdaptiveCards/ACRTargetBuilderDirector.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRView.h"
+#else
 #import <AdaptiveCards/ACRView.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ActionParserRegistration.h"
+#else
 #import <AdaptiveCards/ActionParserRegistration.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "BackgroundImage.h"
+#else
 #import <AdaptiveCards/BackgroundImage.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "Image.h"
+#else
 #import <AdaptiveCards/Image.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "SharedAdaptiveCard.h"
+#else
 #import <AdaptiveCards/SharedAdaptiveCard.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "StyledCollectionElement.h"
+#else
 #import <AdaptiveCards/StyledCollectionElement.h>
+#endif
 #endif
 
 using namespace AdaptiveCards;

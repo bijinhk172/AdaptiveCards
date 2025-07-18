@@ -13,7 +13,11 @@
 #import "ACRViewController.h"
 #else
 /// Cocoapods Imports
+#ifdef SWIFT_PACKAGE
+#import "ACRViewController.h"
+#else
 #import <AdaptiveCards/ACRViewController.h>
+#endif
 #endif
 #import <Foundation/Foundation.h>
 

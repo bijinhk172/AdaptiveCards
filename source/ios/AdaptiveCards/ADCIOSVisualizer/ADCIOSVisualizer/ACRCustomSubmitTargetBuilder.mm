@@ -5,10 +5,26 @@
 //  Copyright © 2020 Microsoft. All rights reserved.
 
 #import "ACRCustomSubmitTargetBuilder.h"
+#ifdef SWIFT_PACKAGE
+#import "ACRAggregateTarget.h"
+#else
 #import <AdaptiveCards/ACRAggregateTarget.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRInputLabelView.h"
+#else
 #import <AdaptiveCards/ACRInputLabelView.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRTargetBuilderDirector.h"
+#else
 #import <AdaptiveCards/ACRTargetBuilderDirector.h>
+#endif
+#ifdef SWIFT_PACKAGE
+#import "ACRViewPrivate.h"
+#else
 #import <AdaptiveCards/ACRViewPrivate.h>
+#endif
 
 @interface ACRCustomSubmitTarget : ACRAggregateTarget
 @end
