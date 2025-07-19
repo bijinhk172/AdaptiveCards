@@ -17,46 +17,14 @@
 #import "HostConfig.h"
 #else
 /// Cocoapods Imports
-#ifdef SWIFT_PACKAGE
-#import "ACOTypeaheadDebouncer.h"
-#else
 #import <AdaptiveCards/ACOTypeaheadDebouncer.h>
-#endif
-#ifdef SWIFT_PACKAGE
-#import "ACOTypeaheadSearchHandler.h"
-#else
 #import <AdaptiveCards/ACOTypeaheadSearchHandler.h>
-#endif
-#ifdef SWIFT_PACKAGE
-#import "ACRChoiceSetCompactStyleView.h"
-#else
 #import <AdaptiveCards/ACRChoiceSetCompactStyleView.h>
-#endif
-#ifdef SWIFT_PACKAGE
-#import "ACRChoiceSetFilteredStyleView.h"
-#else
 #import <AdaptiveCards/ACRChoiceSetFilteredStyleView.h>
-#endif
-#ifdef SWIFT_PACKAGE
-#import "ACRTypeaheadSearchParameters.h"
-#else
 #import <AdaptiveCards/ACRTypeaheadSearchParameters.h>
-#endif
-#ifdef SWIFT_PACKAGE
-#import "ACRView.h"
-#else
 #import <AdaptiveCards/ACRView.h>
-#endif
-#ifdef SWIFT_PACKAGE
-#import "BaseCardElement.h"
-#else
 #import <AdaptiveCards/BaseCardElement.h>
-#endif
-#ifdef SWIFT_PACKAGE
-#import "HostConfig.h"
-#else
 #import <AdaptiveCards/HostConfig.h>
-#endif
 #endif
 #import "ACOTypeaheadDynamicChoicesService.h"
 #import <UIKit/UIKit.h>

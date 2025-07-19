@@ -28,7 +28,8 @@ let package = Package(
             path: "source/shared/cpp/ObjectModel",
             exclude: [
                 "CMakeLists.txt"
-            ]
+            ],
+            publicHeadersPath: "."
             ),
         .target(
             name: "AdaptiveCards",
@@ -50,7 +51,8 @@ let package = Package(
             ],
             publicHeadersPath: "include",
             cSettings: [
-                .headerSearchPath(".")
+                .headerSearchPath("."),
+                .headerSearchPath("PrivateHeaders")
             ],
             cxxSettings: [
                 .headerSearchPath("../../../../shared/cpp/ObjectModel") 
