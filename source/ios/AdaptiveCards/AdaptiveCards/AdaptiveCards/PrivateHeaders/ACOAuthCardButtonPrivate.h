@@ -14,12 +14,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOAuthCardButton.h"
 #else
-#import <AdaptiveCards/ACOAuthCardButton.h>
+#import "ACOAuthCardButton.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "AuthCardButton.h"
 #else
-#import <AdaptiveCards/AuthCardButton.h>
+#import "AuthCardButton.h"
 #endif
 #endif
 

@@ -18,32 +18,32 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOBaseCardElement.h"
 #else
-#import <AdaptiveCards/ACOBaseCardElement.h>
+#import "ACOBaseCardElement.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRColumnSetView.h"
 #else
-#import <AdaptiveCards/ACRColumnSetView.h>
+#import "ACRColumnSetView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIBaseCardElementRenderer.h"
 #else
-#import <AdaptiveCards/ACRIBaseCardElementRenderer.h>
+#import "ACRIBaseCardElementRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIBaseInputHandler.h"
 #else
-#import <AdaptiveCards/ACRIBaseInputHandler.h>
+#import "ACRIBaseInputHandler.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "HostConfig.h"
 #else
-#import <AdaptiveCards/HostConfig.h>
+#import "HostConfig.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ToggleInput.h"
 #else
-#import <AdaptiveCards/ToggleInput.h>
+#import "ToggleInput.h"
 #endif
 #endif
 

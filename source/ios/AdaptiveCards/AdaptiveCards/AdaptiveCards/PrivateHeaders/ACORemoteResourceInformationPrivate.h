@@ -13,12 +13,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACORemoteResourceInformation.h"
 #else
-#import <AdaptiveCards/ACORemoteResourceInformation.h>
+#import "ACORemoteResourceInformation.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "RemoteResourceInformation.h"
 #else
-#import <AdaptiveCards/RemoteResourceInformation.h>
+#import "RemoteResourceInformation.h"
 #endif
 #endif
 

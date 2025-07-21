@@ -13,7 +13,7 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOBaseActionElement.h"
 #else
-#import <AdaptiveCards/ACOBaseActionElement.h>
+#import "ACOBaseActionElement.h"
 #endif
 #endif
 #import <Foundation/Foundation.h>

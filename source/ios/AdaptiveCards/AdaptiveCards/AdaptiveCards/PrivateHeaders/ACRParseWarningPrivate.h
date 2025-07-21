@@ -14,12 +14,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRParseWarning.h"
 #else
-#import <AdaptiveCards/ACRParseWarning.h>
+#import "ACRParseWarning.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "AdaptiveCardParseWarning.h"
 #else
-#import <AdaptiveCards/AdaptiveCardParseWarning.h>
+#import "AdaptiveCardParseWarning.h"
 #endif
 #endif
 #import <Foundation/Foundation.h>

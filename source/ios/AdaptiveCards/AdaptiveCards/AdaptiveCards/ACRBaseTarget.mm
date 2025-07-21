@@ -8,7 +8,7 @@
 #import "ACRBaseTarget.h"
 #import <UIKit/UIKit.h>
 #if defined(ADAPTIVECARDS_USE_FLUENT_TOOLTIPS)
-#import <FluentUI/FluentUI-Swift.h>
+#import <FluentUI/FluentUI-Swift.h"
 #endif
 
 @implementation ACRBaseTarget {

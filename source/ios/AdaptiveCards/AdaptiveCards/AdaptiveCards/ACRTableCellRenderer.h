@@ -13,7 +13,7 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRContainerRenderer.h"
 #else
-#import <AdaptiveCards/ACRContainerRenderer.h>
+#import "ACRContainerRenderer.h"
 #endif
 #endif
 

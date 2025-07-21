@@ -15,17 +15,17 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOBaseCardElement.h"
 #else
-#import <AdaptiveCards/ACOBaseCardElement.h>
+#import "ACOBaseCardElement.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOHostConfig.h"
 #else
-#import <AdaptiveCards/ACOHostConfig.h>
+#import "ACOHostConfig.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACREnums.h"
 #else
-#import <AdaptiveCards/ACREnums.h>
+#import "ACREnums.h"
 #endif
 #endif
 #import <Foundation/Foundation.h>

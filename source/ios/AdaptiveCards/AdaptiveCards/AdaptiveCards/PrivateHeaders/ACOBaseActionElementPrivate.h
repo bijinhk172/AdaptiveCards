@@ -13,12 +13,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOBaseActionElement.h"
 #else
-#import <AdaptiveCards/ACOBaseActionElement.h>
+#import "ACOBaseActionElement.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "BaseActionElement.h"
 #else
-#import <AdaptiveCards/BaseActionElement.h>
+#import "BaseActionElement.h"
 #endif
 #endif
 

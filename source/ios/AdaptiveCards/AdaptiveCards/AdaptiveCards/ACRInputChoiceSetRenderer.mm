@@ -13,7 +13,7 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRChoiceSetViewDataSource.h"
 #else
-#import <AdaptiveCards/ACRChoiceSetViewDataSource.h>
+#import "ACRChoiceSetViewDataSource.h"
 #endif
 #endif
 #import "ACOBaseCardElementPrivate.h"

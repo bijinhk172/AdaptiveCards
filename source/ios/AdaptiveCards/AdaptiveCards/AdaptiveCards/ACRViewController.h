@@ -14,12 +14,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOWarning.h"
 #else
-#import <AdaptiveCards/ACOWarning.h>
+#import "ACOWarning.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRActionDelegate.h"
 #else
-#import <AdaptiveCards/ACRActionDelegate.h>
+#import "ACRActionDelegate.h"
 #endif
 #endif
 #import "ACOAdaptiveCard.h"

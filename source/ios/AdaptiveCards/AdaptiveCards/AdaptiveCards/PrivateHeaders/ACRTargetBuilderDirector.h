@@ -15,17 +15,17 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOBaseActionElementPrivate.h"
 #else
-#import <AdaptiveCards/ACOBaseActionElementPrivate.h>
+#import "ACOBaseActionElementPrivate.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTargetBuilder.h"
 #else
-#import <AdaptiveCards/ACRTargetBuilder.h>
+#import "ACRTargetBuilder.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRView.h"
 #else
-#import <AdaptiveCards/ACRView.h>
+#import "ACRView.h"
 #endif
 #endif
 #import <Foundation/Foundation.h>

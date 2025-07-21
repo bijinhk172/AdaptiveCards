@@ -15,22 +15,22 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRContentStackView.h"
 #else
-#import <AdaptiveCards/ACRContentStackView.h>
+#import "ACRContentStackView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIContentHoldingView.h"
 #else
-#import <AdaptiveCards/ACRIContentHoldingView.h>
+#import "ACRIContentHoldingView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "HostConfig.h"
 #else
-#import <AdaptiveCards/HostConfig.h>
+#import "HostConfig.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "SharedAdaptiveCard.h"
 #else
-#import <AdaptiveCards/SharedAdaptiveCard.h>
+#import "SharedAdaptiveCard.h"
 #endif
 #endif
 #import <Foundation/Foundation.h>

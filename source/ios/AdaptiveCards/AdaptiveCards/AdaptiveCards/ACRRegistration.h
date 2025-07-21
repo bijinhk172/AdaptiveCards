@@ -16,12 +16,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRBaseActionElementRenderer.h"
 #else
-#import <AdaptiveCards/ACRBaseActionElementRenderer.h>
+#import "ACRBaseActionElementRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTargetBuilder.h"
 #else
-#import <AdaptiveCards/ACRTargetBuilder.h>
+#import "ACRTargetBuilder.h"
 #endif
 #endif
 #import "ACOBaseCardElement.h"

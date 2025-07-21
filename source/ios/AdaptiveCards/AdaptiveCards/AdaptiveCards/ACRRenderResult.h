@@ -16,7 +16,7 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRViewController.h"
 #else
-#import <AdaptiveCards/ACRViewController.h>
+#import "ACRViewController.h"
 #endif
 #endif
 #import <Foundation/Foundation.h>

@@ -13,12 +13,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOBaseCardElement.h"
 #else
-#import <AdaptiveCards/ACOBaseCardElement.h>
+#import "ACOBaseCardElement.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "BaseCardElement.h"
 #else
-#import <AdaptiveCards/BaseCardElement.h>
+#import "BaseCardElement.h"
 #endif
 #endif
 

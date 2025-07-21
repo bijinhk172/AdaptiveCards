@@ -16,22 +16,22 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRView.h"
 #else
-#import <AdaptiveCards/ACRView.h>
+#import "ACRView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "HostConfig.h"
 #else
-#import <AdaptiveCards/HostConfig.h>
+#import "HostConfig.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ImageSet.h"
 #else
-#import <AdaptiveCards/ImageSet.h>
+#import "ImageSet.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "SharedAdaptiveCard.h"
 #else
-#import <AdaptiveCards/SharedAdaptiveCard.h>
+#import "SharedAdaptiveCard.h"
 #endif
 #endif
 #import <UIKit/UIKit.h>

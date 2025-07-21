@@ -14,12 +14,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRChoiceSetViewDataSource.h"
 #else
-#import <AdaptiveCards/ACRChoiceSetViewDataSource.h>
+#import "ACRChoiceSetViewDataSource.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRChoiceSetViewDataSourceCompactStyle.h"
 #else
-#import <AdaptiveCards/ACRChoiceSetViewDataSourceCompactStyle.h>
+#import "ACRChoiceSetViewDataSourceCompactStyle.h"
 #endif
 #endif
 #import "ACOBundle.h"

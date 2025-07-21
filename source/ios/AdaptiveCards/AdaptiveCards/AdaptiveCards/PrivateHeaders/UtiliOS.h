@@ -23,62 +23,62 @@
 #ifdef SWIFT_PACKAGE
 #import "ACORenderContext.h"
 #else
-#import <AdaptiveCards/ACORenderContext.h>
+#import "ACORenderContext.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOVisibilityManager.h"
 #else
-#import <AdaptiveCards/ACOVisibilityManager.h>
+#import "ACOVisibilityManager.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRErrors.h"
 #else
-#import <AdaptiveCards/ACRErrors.h>
+#import "ACRErrors.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIBaseCardElementRenderer.h"
 #else
-#import <AdaptiveCards/ACRIBaseCardElementRenderer.h>
+#import "ACRIBaseCardElementRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRSeparator.h"
 #else
-#import <AdaptiveCards/ACRSeparator.h>
+#import "ACRSeparator.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRViewPrivate.h"
 #else
-#import <AdaptiveCards/ACRViewPrivate.h>
+#import "ACRViewPrivate.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "BaseCardElement.h"
 #else
-#import <AdaptiveCards/BaseCardElement.h>
+#import "BaseCardElement.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "RichTextElementProperties.h"
 #else
-#import <AdaptiveCards/RichTextElementProperties.h>
+#import "RichTextElementProperties.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "StyledCollectionElement.h"
 #else
-#import <AdaptiveCards/StyledCollectionElement.h>
+#import "StyledCollectionElement.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "TextBlock.h"
 #else
-#import <AdaptiveCards/TextBlock.h>
+#import "TextBlock.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "TextRun.h"
 #else
-#import <AdaptiveCards/TextRun.h>
+#import "TextRun.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "UnknownAction.h"
 #else
-#import <AdaptiveCards/UnknownAction.h>
+#import "UnknownAction.h"
 #endif
 
 #endif

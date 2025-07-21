@@ -17,27 +17,27 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOBaseCardElement.h"
 #else
-#import <AdaptiveCards/ACOBaseCardElement.h>
+#import "ACOBaseCardElement.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIBaseInputHandler.h"
 #else
-#import <AdaptiveCards/ACRIBaseInputHandler.h>
+#import "ACRIBaseInputHandler.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ChoiceInput.h"
 #else
-#import <AdaptiveCards/ChoiceInput.h>
+#import "ChoiceInput.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ChoiceSetInput.h"
 #else
-#import <AdaptiveCards/ChoiceSetInput.h>
+#import "ChoiceSetInput.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "HostConfig.h"
 #else
-#import <AdaptiveCards/HostConfig.h>
+#import "HostConfig.h"
 #endif
 #endif
 #import <UIKit/UIKit.h>

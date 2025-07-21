@@ -83,317 +83,317 @@ FOUNDATION_EXPORT const unsigned char AdaptiveCarsFrameworkVersionString[];
 #ifdef SWIFT_PACKAGE
 #import "ACOActionOverflow.h"
 #else
-#import <AdaptiveCards/ACOActionOverflow.h>
+#import "ACOActionOverflow.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOAdaptiveCard.h"
 #else
-#import <AdaptiveCards/ACOAdaptiveCard.h>
+#import "ACOAdaptiveCard.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOAdaptiveCardParseResult.h"
 #else
-#import <AdaptiveCards/ACOAdaptiveCardParseResult.h>
+#import "ACOAdaptiveCardParseResult.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOBaseCardElement.h"
 #else
-#import <AdaptiveCards/ACOBaseCardElement.h>
+#import "ACOBaseCardElement.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOEnums.h"
 #else
-#import <AdaptiveCards/ACOEnums.h>
+#import "ACOEnums.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOHostConfig.h"
 #else
-#import <AdaptiveCards/ACOHostConfig.h>
+#import "ACOHostConfig.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOHostConfigParseResult.h"
 #else
-#import <AdaptiveCards/ACOHostConfigParseResult.h>
+#import "ACOHostConfigParseResult.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOIResourceResolver.h"
 #else
-#import <AdaptiveCards/ACOIResourceResolver.h>
+#import "ACOIResourceResolver.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOInputResults.h"
 #else
-#import <AdaptiveCards/ACOInputResults.h>
+#import "ACOInputResults.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOMediaEvent.h"
 #else
-#import <AdaptiveCards/ACOMediaEvent.h>
+#import "ACOMediaEvent.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACORemoteResourceInformation.h"
 #else
-#import <AdaptiveCards/ACORemoteResourceInformation.h>
+#import "ACORemoteResourceInformation.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACORenderContext.h"
 #else
-#import <AdaptiveCards/ACORenderContext.h>
+#import "ACORenderContext.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACOResourceResolvers.h"
 #else
-#import <AdaptiveCards/ACOResourceResolvers.h>
+#import "ACOResourceResolvers.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRActionDelegate.h"
 #else
-#import <AdaptiveCards/ACRActionDelegate.h>
+#import "ACRActionDelegate.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRActionOpenURLRenderer.h"
 #else
-#import <AdaptiveCards/ACRActionOpenURLRenderer.h>
+#import "ACRActionOpenURLRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRActionSetRenderer.h"
 #else
-#import <AdaptiveCards/ACRActionSetRenderer.h>
+#import "ACRActionSetRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRActionShowCardRenderer.h"
 #else
-#import <AdaptiveCards/ACRActionShowCardRenderer.h>
+#import "ACRActionShowCardRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRActionSubmitRenderer.h"
 #else
-#import <AdaptiveCards/ACRActionSubmitRenderer.h>
+#import "ACRActionSubmitRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRAggregateTarget.h"
 #else
-#import <AdaptiveCards/ACRAggregateTarget.h>
+#import "ACRAggregateTarget.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRBaseActionElementRenderer.h"
 #else
-#import <AdaptiveCards/ACRBaseActionElementRenderer.h>
+#import "ACRBaseActionElementRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRBaseCardElementRenderer.h"
 #else
-#import <AdaptiveCards/ACRBaseCardElementRenderer.h>
+#import "ACRBaseCardElementRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRBaseTarget.h"
 #else
-#import <AdaptiveCards/ACRBaseTarget.h>
+#import "ACRBaseTarget.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRButton.h"
 #else
-#import <AdaptiveCards/ACRButton.h>
+#import "ACRButton.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRChoiceSetCompactStyleView.h"
 #else
-#import <AdaptiveCards/ACRChoiceSetCompactStyleView.h>
+#import "ACRChoiceSetCompactStyleView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRColumnRenderer.h"
 #else
-#import <AdaptiveCards/ACRColumnRenderer.h>
+#import "ACRColumnRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRColumnSetRenderer.h"
 #else
-#import <AdaptiveCards/ACRColumnSetRenderer.h>
+#import "ACRColumnSetRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRContainerRenderer.h"
 #else
-#import <AdaptiveCards/ACRContainerRenderer.h>
+#import "ACRContainerRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRContentHoldingUIView.h"
 #else
-#import <AdaptiveCards/ACRContentHoldingUIView.h>
+#import "ACRContentHoldingUIView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRErrors.h"
 #else
-#import <AdaptiveCards/ACRErrors.h>
+#import "ACRErrors.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRFactSetRenderer.h"
 #else
-#import <AdaptiveCards/ACRFactSetRenderer.h>
+#import "ACRFactSetRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIBaseActionElementRenderer.h"
 #else
-#import <AdaptiveCards/ACRIBaseActionElementRenderer.h>
+#import "ACRIBaseActionElementRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIBaseCardElementRenderer.h"
 #else
-#import <AdaptiveCards/ACRIBaseCardElementRenderer.h>
+#import "ACRIBaseCardElementRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIBaseInputHandler.h"
 #else
-#import <AdaptiveCards/ACRIBaseInputHandler.h>
+#import "ACRIBaseInputHandler.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIMedia.h"
 #else
-#import <AdaptiveCards/ACRIMedia.h>
+#import "ACRIMedia.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRImageProperties.h"
 #else
-#import <AdaptiveCards/ACRImageProperties.h>
+#import "ACRImageProperties.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRImageRenderer.h"
 #else
-#import <AdaptiveCards/ACRImageRenderer.h>
+#import "ACRImageRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRImageSetRenderer.h"
 #else
-#import <AdaptiveCards/ACRImageSetRenderer.h>
+#import "ACRImageSetRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRInputChoiceSetRenderer.h"
 #else
-#import <AdaptiveCards/ACRInputChoiceSetRenderer.h>
+#import "ACRInputChoiceSetRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRInputDateRenderer.h"
 #else
-#import <AdaptiveCards/ACRInputDateRenderer.h>
+#import "ACRInputDateRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRInputLabelView.h"
 #else
-#import <AdaptiveCards/ACRInputLabelView.h>
+#import "ACRInputLabelView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRInputNumberRenderer.h"
 #else
-#import <AdaptiveCards/ACRInputNumberRenderer.h>
+#import "ACRInputNumberRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRInputRenderer.h"
 #else
-#import <AdaptiveCards/ACRInputRenderer.h>
+#import "ACRInputRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRInputTimeRenderer.h"
 #else
-#import <AdaptiveCards/ACRInputTimeRenderer.h>
+#import "ACRInputTimeRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRInputToggleRenderer.h"
 #else
-#import <AdaptiveCards/ACRInputToggleRenderer.h>
+#import "ACRInputToggleRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRMediaRenderer.h"
 #else
-#import <AdaptiveCards/ACRMediaRenderer.h>
+#import "ACRMediaRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRMediaTarget.h"
 #else
-#import <AdaptiveCards/ACRMediaTarget.h>
+#import "ACRMediaTarget.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACROverflowTarget.h"
 #else
-#import <AdaptiveCards/ACROverflowTarget.h>
+#import "ACROverflowTarget.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRParseWarning.h"
 #else
-#import <AdaptiveCards/ACRParseWarning.h>
+#import "ACRParseWarning.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRRegistration.h"
 #else
-#import <AdaptiveCards/ACRRegistration.h>
+#import "ACRRegistration.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRRenderResult.h"
 #else
-#import <AdaptiveCards/ACRRenderResult.h>
+#import "ACRRenderResult.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRRenderer.h"
 #else
-#import <AdaptiveCards/ACRRenderer.h>
+#import "ACRRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRRichTextBlockRenderer.h"
 #else
-#import <AdaptiveCards/ACRRichTextBlockRenderer.h>
+#import "ACRRichTextBlockRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTableCellRenderer.h"
 #else
-#import <AdaptiveCards/ACRTableCellRenderer.h>
+#import "ACRTableCellRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTableRenderer.h"
 #else
-#import <AdaptiveCards/ACRTableRenderer.h>
+#import "ACRTableRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTableRow.h"
 #else
-#import <AdaptiveCards/ACRTableRow.h>
+#import "ACRTableRow.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTableView.h"
 #else
-#import <AdaptiveCards/ACRTableView.h>
+#import "ACRTableView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTapGestureRecognizerEventHandler.h"
 #else
-#import <AdaptiveCards/ACRTapGestureRecognizerEventHandler.h>
+#import "ACRTapGestureRecognizerEventHandler.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTapGestureRecognizerFactory.h"
 #else
-#import <AdaptiveCards/ACRTapGestureRecognizerFactory.h>
+#import "ACRTapGestureRecognizerFactory.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTextBlockRenderer.h"
 #else
-#import <AdaptiveCards/ACRTextBlockRenderer.h>
+#import "ACRTextBlockRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTextInputHandler.h"
 #else
-#import <AdaptiveCards/ACRTextInputHandler.h>
+#import "ACRTextInputHandler.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRTextView.h"
 #else
-#import <AdaptiveCards/ACRTextView.h>
+#import "ACRTextView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRToggleInputView.h"
 #else
-#import <AdaptiveCards/ACRToggleInputView.h>
+#import "ACRToggleInputView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRView.h"
 #else
-#import <AdaptiveCards/ACRView.h>
+#import "ACRView.h"
 #endif
 
 #endif

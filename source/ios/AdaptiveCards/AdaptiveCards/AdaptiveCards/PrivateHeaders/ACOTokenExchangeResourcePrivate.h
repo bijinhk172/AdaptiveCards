@@ -14,12 +14,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOTokenExchangeResource.h"
 #else
-#import <AdaptiveCards/ACOTokenExchangeResource.h>
+#import "ACOTokenExchangeResource.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "TokenExchangeResource.h"
 #else
-#import <AdaptiveCards/TokenExchangeResource.h>
+#import "TokenExchangeResource.h"
 #endif
 #endif
 

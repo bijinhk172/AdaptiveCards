@@ -4,8 +4,8 @@
 #import "FeatureRegistration.h"
 #else
 /// Cocoapods Imports
-#include <AdaptiveCards/ACRRegistration.h>
-#include <AdaptiveCards/FeatureRegistration.h>
+#include "ACRRegistration.h"
+#include "FeatureRegistration.h"
 #endif
 
 using namespace AdaptiveCards;

@@ -14,12 +14,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACORefresh.h"
 #else
-#import <AdaptiveCards/ACORefresh.h>
+#import "ACORefresh.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "Refresh.h"
 #else
-#import <AdaptiveCards/Refresh.h>
+#import "Refresh.h"
 #endif
 #endif
 

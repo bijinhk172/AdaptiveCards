@@ -13,7 +13,7 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRRenderResult.h"
 #else
-#import <AdaptiveCards/ACRRenderResult.h>
+#import "ACRRenderResult.h"
 #endif
 #endif
 #import "ACOAdaptiveCard.h"

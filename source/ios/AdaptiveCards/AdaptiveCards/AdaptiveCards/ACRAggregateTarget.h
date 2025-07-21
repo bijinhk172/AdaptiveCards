@@ -14,12 +14,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOInputResults.h"
 #else
-#import <AdaptiveCards/ACOInputResults.h>
+#import "ACOInputResults.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRBaseTarget.h"
 #else
-#import <AdaptiveCards/ACRBaseTarget.h>
+#import "ACRBaseTarget.h"
 #endif
 #endif
 #import "ACRIContentHoldingView.h"

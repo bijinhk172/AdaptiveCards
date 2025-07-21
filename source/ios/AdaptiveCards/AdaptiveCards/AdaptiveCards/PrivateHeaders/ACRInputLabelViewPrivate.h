@@ -17,22 +17,22 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRInputLabelView.h"
 #else
-#import <AdaptiveCards/ACRInputLabelView.h>
+#import "ACRInputLabelView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRView.h"
 #else
-#import <AdaptiveCards/ACRView.h>
+#import "ACRView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "BaseInputElement.h"
 #else
-#import <AdaptiveCards/BaseInputElement.h>
+#import "BaseInputElement.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "SharedAdaptiveCard.h"
 #else
-#import <AdaptiveCards/SharedAdaptiveCard.h>
+#import "SharedAdaptiveCard.h"
 #endif
 #endif
 

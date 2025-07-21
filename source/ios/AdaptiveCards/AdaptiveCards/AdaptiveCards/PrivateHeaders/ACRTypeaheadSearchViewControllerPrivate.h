@@ -17,14 +17,14 @@
 #import "HostConfig.h"
 #else
 /// Cocoapods Imports
-#import <AdaptiveCards/ACOTypeaheadDebouncer.h>
-#import <AdaptiveCards/ACOTypeaheadSearchHandler.h>
-#import <AdaptiveCards/ACRChoiceSetCompactStyleView.h>
-#import <AdaptiveCards/ACRChoiceSetFilteredStyleView.h>
-#import <AdaptiveCards/ACRTypeaheadSearchParameters.h>
-#import <AdaptiveCards/ACRView.h>
-#import <AdaptiveCards/BaseCardElement.h>
-#import <AdaptiveCards/HostConfig.h>
+#import "ACOTypeaheadDebouncer.h"
+#import "ACOTypeaheadSearchHandler.h"
+#import "ACRChoiceSetCompactStyleView.h"
+#import "ACRChoiceSetFilteredStyleView.h"
+#import "ACRTypeaheadSearchParameters.h"
+#import "ACRView.h"
+#import "BaseCardElement.h"
+#import "HostConfig.h"
 #endif
 #import "ACOTypeaheadDynamicChoicesService.h"
 #import <UIKit/UIKit.h>

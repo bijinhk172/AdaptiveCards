@@ -19,32 +19,32 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRBaseCardElementRenderer.h"
 #else
-#import <AdaptiveCards/ACRBaseCardElementRenderer.h>
+#import "ACRBaseCardElementRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIContentHoldingView.h"
 #else
-#import <AdaptiveCards/ACRIContentHoldingView.h>
+#import "ACRIContentHoldingView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRRenderer.h"
 #else
-#import <AdaptiveCards/ACRRenderer.h>
+#import "ACRRenderer.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "BackgroundImage.h"
 #else
-#import <AdaptiveCards/BackgroundImage.h>
+#import "BackgroundImage.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "HostConfig.h"
 #else
-#import <AdaptiveCards/HostConfig.h>
+#import "HostConfig.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "SharedAdaptiveCard.h"
 #else
-#import <AdaptiveCards/SharedAdaptiveCard.h>
+#import "SharedAdaptiveCard.h"
 #endif
 #endif
 #import <Foundation/Foundation.h>

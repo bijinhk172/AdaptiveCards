@@ -13,12 +13,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRBaseTarget.h"
 #else
-#import <AdaptiveCards/ACRBaseTarget.h>
+#import "ACRBaseTarget.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRIContentHoldingView.h"
 #else
-#import <AdaptiveCards/ACRIContentHoldingView.h>
+#import "ACRIContentHoldingView.h"
 #endif
 #endif
 #import "ACRTapGestureRecognizerEventHandler.h"

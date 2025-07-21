@@ -14,12 +14,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACRContentStackView.h"
 #else
-#import <AdaptiveCards/ACRContentStackView.h>
+#import "ACRContentStackView.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ACRView.h"
 #else
-#import <AdaptiveCards/ACRView.h>
+#import "ACRView.h"
 #endif
 #endif
 #import <Foundation/Foundation.h>

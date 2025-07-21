@@ -13,12 +13,12 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOParseContext.h"
 #else
-#import <AdaptiveCards/ACOParseContext.h>
+#import "ACOParseContext.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "ParseContext.h"
 #else
-#import <AdaptiveCards/ParseContext.h>
+#import "ParseContext.h"
 #endif
 #endif
 

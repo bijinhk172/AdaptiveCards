@@ -16,22 +16,22 @@
 #ifdef SWIFT_PACKAGE
 #import "ACOMediaEvent.h"
 #else
-#import <AdaptiveCards/ACOMediaEvent.h>
+#import "ACOMediaEvent.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "Media.h"
 #else
-#import <AdaptiveCards/Media.h>
+#import "Media.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "MediaSource.h"
 #else
-#import <AdaptiveCards/MediaSource.h>
+#import "MediaSource.h"
 #endif
 #ifdef SWIFT_PACKAGE
 #import "SharedAdaptiveCard.h"
 #else
-#import <AdaptiveCards/SharedAdaptiveCard.h>
+#import "SharedAdaptiveCard.h"
 #endif
 #endif
 #import <Foundation/Foundation.h>
